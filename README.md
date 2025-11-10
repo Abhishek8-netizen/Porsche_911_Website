@@ -30,11 +30,11 @@ The page serves as the central landing page of the website. It provides:
 # Preview
 ## Main hub (`webpage.html`)
 ![Home_page](Screenshots/Main_hub_1.png)
-------------
+---
 ![Features](Screenshots/Main_hub_2.png)
 ---
 ![Models](Screenshots/Main_hub_3.png)
-
+---
 ![Special_models](Screenshots/Main_hub_4.png)
 
 
@@ -42,20 +42,32 @@ The page serves as the central landing page of the website. It provides:
 
 ## Porsche 911 Targa 4 GTS (`targa.html`)
 ![targa_home](Screenshots/911_Targa_1.png)
-
+---
 ![targa_spec](Screenshots/911_Targa_2.png)
-
+---
 ![targa_features_1](Screenshots/911_Targa_3.png)
-
+---
 ![targa_features_2](Screenshots/911_Targa_4.png)
 
 <br><br>
 ## Porsche 911 Spirit 70 (`spirit70.html`)
 ![spirit70_home](Screenshots/Spirit_70_1.png)
-
+---
 ![spirit70_spec](Screenshots/Spirit_70_3.png)
-
+---
 ![spirit70_highlights](Screenshots/Spirit_70_2.png)
+
+<br><br>
+## Porsche 911 Turbo 50 Years
+![50years_home](Screenshots/50_years_1.png)
+---
+![50years_spec_one](Screenshots/50_years_2.png)
+---
+![50years_spec_two](Screenshots/50_years_5.png)
+---
+![50years_legacy](Screenshots/50_years_3.png)
+---
+![50years_highlights](Screenshots/50_years_4.png)
 
 # Credits
 - Porsche AG for model references  
