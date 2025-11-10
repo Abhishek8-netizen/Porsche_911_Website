@@ -40,9 +40,9 @@ The page serves as the central landing page of the website. It provides:
 
 
 -----
+<br><br>
 
-
-## Porsche 911 Targe 4 GTS (`targa.html`)
+## Porsche 911 Targa 4 GTS (`targa.html`)
 ![targa_home](Screenshots/911_Targa_1.png)
 
 ![targa_spec](Screenshots/911_Targa_2.png)
