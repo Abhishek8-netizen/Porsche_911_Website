@@ -11,3 +11,18 @@ This project is a collection of dedicated web pages highlighting some of the mos
 Each model has its own dedicated page with detailed information, images, and specifications.
 
 
+### Main Hub Page (`webpage.html`)
+
+The page serves as the central landing page of the website. It provides:
+
+- An overview of the Porsche 911 line  
+- Links and navigation buttons to each special model page  
+- High-quality hero images of all featured models  
+- A simple, desktop-focused layout for easy browsing  
+
+## Features
+- Central hub page for easy navigation  
+- Separate pages for each special Porsche 911 model  
+- High-quality images and detailed descriptions  
+
+
