@@ -1,0 +1,236 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+header .nav_bar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+header .nav_bar nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header .nav_bar nav a {
+    font-family: Genos;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    width: 10rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.5rem solid #004225;
+
+    transition: color 0.4s ease;
+}
+
+header .nav_bar nav a:hover {
+    color: gray;
+}
+
+header .heading {
+    background-color: black;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    color: white;
+
+    text-align: center;
+    font-family: Genos;
+    font-size: 4rem;
+}
+
+#about {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#about article header {
+    font-family: Aldrich;
+    font-size: 1.5rem;
+}
+
+#about article #content {
+    font-family: Aldrich;
+    font-size: 1.5rem;
+    margin: auto;
+    width: 70rem;
+    line-height: 3rem;
+    color: black;
+}
+
+#version {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#version header {
+    text-align: center;
+    font-family: Aldrich;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+#version header p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+#version .category_selector {
+    display: flex;
+    justify-content: space-around;
+}
+
+#version .category_selector a {
+    font-family: Aldrich;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    background-color: #004225;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+
+    transition: color 0.5s ease;
+}
+
+#version .category_selector a:hover {
+    color: black;
+}
+
+#version #carrera {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 7rem;
+    justify-items: center;
+}
+
+#version #cabriolet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 7rem;
+    justify-items: center
+}
+
+#version #turbo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 7rem;
+    justify-items: center;
+}
+
+#version #gt3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 7rem;
+    justify-items: center;
+}
+
+#version #special {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 7rem;
+    gap: 7rem;
+    justify-items: center;
+}
+
+.car_card {
+    text-align: center;
+    font-family: Aldrich;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.4s ease;
+}
+
+.car_card h3,
+h2,
+p {
+    transition: opacity 0.5s ease;
+}
+
+.car_card img {
+    width: 500px;
+    transition: opacity 0.5s ease;
+}
+
+.car_list button {
+    display: block;
+    margin-top: 3rem;
+
+    width: 300px;
+    height: 60px;
+    border-radius: 1rem;
+
+    font-size: 1.5rem;
+    font-family: Aldrich;
+    border: none;
+
+    transition: background-color 0.4s ease;
+}
+
+.car_list button:hover {
+    background-color: darkgray;
+}
+
+#special_card {
+    background-color: rgb(42, 42, 42);
+    padding: 2rem;
+    border-radius: 2rem;
+
+    text-align: center;
+    color: white;
+    font-family: Aldrich;
+
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#special_card a {
+    color: black;
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+
+    text-decoration: none;
+
+    transition: background-color 0.4s ease;
+}
+
+#special_card img {
+    width: 500px;
+}
+
+#special_card a:hover {
+    background-color: gray;
+}
+
+#targa_card a {
+    color: white;
+    background-color: black;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+
+    text-decoration: none;
+
+    transition: background-color 0.4s ease;
+}
+
+#targa_card a:hover {
+    background-color: gray;
+}

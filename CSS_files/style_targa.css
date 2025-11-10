@@ -1,0 +1,250 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+#home {
+    font-family: Genos;
+    font-weight: 700;
+}
+
+#home nav {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+
+    text-align: center;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#home div {
+    padding-top: 10rem;
+    text-align: center;
+    height: 14.5rem;
+
+    background: linear-gradient(#ffffff, #666666);
+}
+
+#home div img {
+    width: 70rem;
+}
+
+#home h1 {
+    font-size: 3rem;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#technical_specs {
+    margin-top: 25rem;
+    padding-bottom: 5rem;
+}
+
+#technical_specs header {
+    text-align: center;
+    font-size: 1.5rem;
+
+    font-family: Genos;
+}
+
+.specs {
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 3rem;
+}
+
+.specs img {
+    width: 45rem;
+    height: auto;
+}
+
+.spec_card {
+    background-color: white;
+
+    text-align: center;
+    font-family: Aldrich;
+
+    width: 25rem;
+    height: 30rem;
+    padding: 1rem;
+    border-radius: 1rem;
+
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#motor {
+    margin-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+#motor header {
+    text-align: center;
+    font-family: Genos;
+    font-size: 1.5rem;
+}
+
+#motor .motor_specs {
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 3rem;
+}
+
+#motor .motor_spec_card {
+    text-align: center;
+    font-family: Aldrich;
+}
+
+#display {
+    width: 95%;
+    display: block;
+    margin: auto;
+
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+#hybrid_tech {
+    margin-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+#hybrid_tech header {
+    text-align: center;
+    font-family: Genos;
+    font-size: 1.5rem;
+    width: 60rem;
+
+    margin: auto;
+}
+
+#hybrid_tech_info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#hybrid_tech_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0rem;
+
+
+    justify-items: center;
+    align-items: center;
+
+    background-color: darkgray;
+    width: 65rem;
+    height: 35rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+
+    font-family: Aldrich;
+    line-height: 1.5rem;
+
+    border-radius: 1rem;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+#hybrid_tech_card img {
+    width: 37rem;
+}
+
+#hybrid_tech_card h2 {
+    font-size: 1.7rem;
+}
+
+#hybrid_tech_card p {
+    grid-column: 1 / 3;
+    width: 50rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#hybrid_tech_card img,
+h2,
+p {
+    transition: opacity 0.5s ease;
+}
+
+#hybrid_tech_info button {
+    width: 4rem;
+    height: 4rem;
+
+    border-radius: 50%;
+    border: none;
+
+    font-family: Aldrich;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+    transition: background-color 0.4s ease;
+}
+
+#hybrid_tech_info button:hover {
+    background-color: orange;
+}
+
+
+#more_details {
+    font-family: Genos;
+    text-align: center;
+    font-size: 1.2rem;
+
+    padding-bottom: 5rem;
+}
+
+#more_details a {
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #1B4D3E;
+    padding: 0.6rem;
+    color: white;
+    border-radius: 0.6rem;
+    font-size: 2rem;
+
+    transition: color 0.3s ease;
+}
+
+#more_details a:hover {
+    color: black;
+}
+
+#explore {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+
+#explore a {
+    text-decoration: none;
+}
+
+.explore_card {
+    background-color: rgb(42, 42, 42);
+    text-align: center;
+    padding: 1rem;
+
+    border-radius: 1rem;
+
+    font-family: Genos;
+    color: white;
+
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+
+    transition: transform 0.4s ease;
+}
+
+.explore_card img {
+    width: 35rem;
+}
+
+.explore_card:hover {
+    transform: scale(0.97);
+}

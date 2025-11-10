@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 911 Turbo 50 Years </title>
+    <link rel="stylesheet" href="CSS_files/years_50.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="home">
+        <nav>
+            <h2>Porsche</h2>
+        </nav>
+
+        <div>
+            <h1 id="bg_text">911</h1>
+            <img src="Pictures/Porsche_911_turbo_50_years.avif" alt="Porsche_911_turbo_50_years">
+            <h1 id="title">911 Turbo 50 Years</h1>
+        </div>
+    </header>
+
+    <section id="introduction">
+        <article>
+            <h2 class="heading">Iconic and Superlative</h2>
+            <p>
+                In 1974, the 911 Turbo proved that even the dream of a 911 could be taken even further: with a
+                fascinating
+                symbiosis of outstanding performance, confident elegance and pure emotion. Experience its 50th
+                anniversary
+                up close: at the wheel of the 911 Turbo 50 years.
+            </p>
+        </article>
+    </section>
+
+    <h2 class="heading">Technical Specifications</h2>
+    <section id="technical_spec">
+        <img src="Pictures_50_years/rear_image.avif" alt="rear_image">
+        <div class="technical_spec_card">
+            <h2>178.5 in</h2>
+            <p>Length</p>
+            <br>
+            <h2>74.8 in</h2>
+            <p>Width w/ mirrors folded</p>
+            <br>
+            <h2>51.3 in</h2>
+            <p>Height</p>
+            <br>
+            <h2>96.5 in</h2>
+            <p>Wheelbase</p>
+        </div>
+    </section>
+
+    <h2 class="heading">Motor and Performance</h2>
+    <section id="motor_performance">
+
+        <button id="previous_button" onclick="change_motor_specs(0)">Previous</button>
+        <div id="motor_spec_card">
+            <div>
+                <h2>6</h2>
+                <p>Number of cylinders</p>
+            </div>
+
+            <div>
+                <h2>76.4 mm</h2>
+                <p>Stroke</p>
+            </div>
+
+            <div>
+                <h2>102.0 mm</h2>
+                <p>Bore</p>
+            </div>
+
+            <div>
+                <h2>3745 cc</h2>
+                <p>Displacement</p>
+            </div>
+        </div>
+        <button id="next_button" onclick="change_motor_specs(1)">Next</button>
+    </section>
+
+    <h2 class="heading">The legend of the 911 Turbo</h2>
+    <section id="legend">
+
+        <img id="image1" src="Pictures_50_years/911_rsr_trubo.png" alt="911_rsr_trubo">
+        <p>
+            Porsche set new technical standards with the 911 RSR Turbo concept car presented at the IAA in 1973 - and
+            also made an impression with its uncompromising design
+        </p>
+
+        <img id="image2" src="Pictures_50_years/911_turbo_no_1.png" alt="911_turbo_no_1">
+        <p>
+            The very first Turbo, the legendary Porsche 911 Turbo "No. 1". Back then, it still had the narrow body of
+            the 911 Carrera and a 2.7-liter engine.
+        </p>
+
+        <img id="image3" src="Pictures_50_years/911_turbo_930.png" alt="911_turbo_930">
+        <p>
+            The premiere of the 911 Turbo with a 3.0-liter engine a few weeks later at the 1974 Paris Motor Show caused
+            an even bigger sensation. the independent type number 930 became synonymous with the fastest road sports car
+            of its time.
+        </p>
+
+        <img id="image4" src="Pictures_50_years/911_flat_nose.png" alt="911_flat_nose">
+        <p>
+            A rare gem: the improved 330 PS version of the 911 Turbo from 1982 from the Sonderwunsch (special request)
+            department with a "flat nose" body - also known as the Slantnose or 930 S. The aerodynamic design was based
+            on the Porsche 935 racing car.
+        </p>
+    </section>
+
+    <h1 id="display_title">911</h1>
+    <img class="gallery" src="Pictures_50_years/gallery_1.avif" alt="gallery_1">
+
+    <h2 class="heading">Highlights</h2>
+    <section id="highlights">
+
+        <div class="highlights_card">
+            <img src="Pictures_50_years/limited_anniversary_edition.png" alt="limited_anniversary_edition">
+            <div>
+                <h2>Limited anniversary edition</h2>
+                <p>
+                    Limited to 1,974 units - to match the year of the premiere of the very first 911 Turbo: the new
+                    anniversary edition has the impressive charm of a classic from the day it was manufactured.
+                </p>
+            </div>
+        </div>
+
+        <div class="highlights_card">
+            <img src="Pictures_50_years/exterior.png" alt="exterior">
+            <div>
+                <h2>Exterior</h2>
+                <p>
+                    The exterior is characterized by numerous historical references and lovingly designed details in the
+                    new Turbonite color reserved only for Porsche Turbo models.
+                </p>
+            </div>
+        </div>
+
+        <div class="highlights_card">
+            <img src="Pictures_50_years/interior.png" alt="interior">
+            <div>
+                <h2>Interior</h2>
+                <p>
+                    In the interior, tradition meets modernity: thanks to the tartan design inspired by the "Mackenzie"
+                    pattern (also known internally as "Ferry") with a new color scheme for the seat centers and interior
+                    door panels - combined with elements in Turbonite.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <h2 class="heading">Heritage Design pack</h2>
+    <section id="heritage_design_pack">
+        <img class="gallery" src="Pictures_50_years/porsche_930.avif" alt="porsche_930">
+        <section id="heritage_design_pack_cards">
+
+            <img src="Pictures_50_years/exclusive_nostalgia.png" alt="exclusive_nostalgia">
+            <div>
+                <h2>Exclusive nostalgia</h2>
+                <p>
+                    The optional Heritage Design pack underscores the timeless aesthetics with a paint finish in
+                    Aventurine Green Metallic and the historic Porsche Crest of the Heritage Design strategy, which is
+                    based on the first Crest on a 911(901) from 1963.
+                </p>
+            </div>
+
+            <div class="right">
+                <h2>Lettering and decorative graphics</h2>
+                <p>
+                    The lettering on the rear in Gold and the decorative graphics on the sides in White - "Turbo 50" and
+                    "PORSCHE" lettering, as well as lollipop with individually selectable starting number - emphasize
+                    the special character that can be found on all Heritage Design models.
+                </p>
+            </div>
+            <img src="Pictures_50_years/lettering.png" alt="lettering">
+
+            <img src="Pictures_50_years/interior_heritage.png" alt="interior_heritage">
+            <div>
+                <h2>Interior</h2>
+                <p>
+                    The turbocharged journey through time is accelerated by fine and high-quality details in tartan -
+                    from the decorative panel on the dashboard and the glove compartment to the owner's manual wallet,
+                    the luggage compartment floor mat and the decorative elements on the seat backrests.
+                </p>
+            </div>
+
+            <div class="right">
+                <h2>Sport Chrono watch</h2>
+                <p>
+                    The Sport Chrono clock with its analog design is reminiscent of the legendary Porsche 356 - from a
+                    time when Porsche pointers were White and the numbers Green.
+                </p>
+            </div>
+            <img src="Pictures_50_years/sport_chrono_watch.png" alt="sport_chrono_watch">
+
+            <img src="Pictures_50_years/embossing.png" alt="embossing">
+            <div>
+                <h2>Embossing</h2>
+                <p>
+                    The "PORSCHE Exclusive Manufaktur" embossing on the lid of the storage compartment and the owner's
+                    manual wallet underscores the incomparable signature of masters of their craft, making this 911
+                    Turbo even more exclusive.
+                </p>
+            </div>
+
+        </section>
+    </section>
+
+    <h2 class="heading">Explore other special versions of the 911</h2>
+    <footer>
+        <a href="targa.html">
+            <div>
+                <img src="Pictures/Porsche_911_targa.avif" alt="Porsche_911_targa">
+                <h2>Porsche 911 Targa 4 GTS</h2>
+            </div>
+        </a>
+
+        <a href="spirit70.html">
+            <div>
+                <img src="Pictures/Porsche_911_spirit_70.avif" alt="Porsche_911_spirit_70">
+                <h2>Porsche 911 Spirit 70</h2>
+            </div>
+        </a>
+    </footer>
+
+    <script src="JavaScript_files/years_50.js"></script>
+</body>
+
+</html>

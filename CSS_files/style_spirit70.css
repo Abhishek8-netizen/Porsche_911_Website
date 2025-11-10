@@ -1,0 +1,230 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 25, 25);
+}
+
+#home {
+    font-family: Genos;
+    padding-bottom: 25rem;
+}
+
+#home h2 {
+    font-size: 4rem;
+    color: white;
+}
+
+#home p {
+    font-size: 2rem;
+    width: 60rem;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+#home nav {
+    background-color: rgb(37, 36, 36);
+    color: #C7A100;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#home div {
+    padding-top: 7rem;
+    text-align: center;
+    height: 42.75rem;
+    color: #A67828;
+    font-size: 2rem;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+
+    background: linear-gradient(#000000, rgb(40, 40, 40));
+}
+
+#home div img {
+    width: 70rem;
+    padding-top: 10rem;
+}
+
+#technical_spec {
+    padding-bottom: 5rem;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 2.2rem;
+    font-family: Genos;
+}
+
+.specs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.specs img {
+    width: 45rem;
+}
+
+.specs #technical_spec_card {
+    background-color: rgb(35, 35, 35);
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 22rem;
+    width: 20rem;
+
+    font-family: Aldrich;
+    text-align: center;
+    color: #A67828;
+
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.5);
+}
+
+#motor {
+    padding-bottom: 5rem;
+}
+
+.motor_spec_card {
+    font-family: Aldrich;
+    color: #A67828;
+    text-align: center;
+    width: 20rem;
+
+    background-color: rgb(35, 35, 35);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.5);
+
+    opacity: 0;
+
+    transition: opacity 0.5s ease;
+}
+
+.motor_spec_card.see {
+    opacity: 1;
+}
+
+#highlights_section {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+#highlights {
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 4rem;
+
+    font-family: Aldrich;
+    color: #A67828;
+    line-height: 1.8rem;
+}
+
+#highlights img {
+    width: 35rem;
+    border-radius: 1rem;
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.5);
+
+    transition: transform 0.4s ease;
+}
+
+#highlights img:hover {
+    transform: scale(1.02);
+}
+
+#highlights p {
+    width: 35rem;
+    margin-left: 0;
+    font-size: 1.15rem;
+}
+
+#highlights .right {
+    text-align: right;
+}
+
+#display {
+    transition: transform 0.4s ease;
+}
+
+#display.shrink {
+    transform: scale(0.95);
+}
+
+#details {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details img {
+    width: 20rem;
+    height: 12.7rem;
+    border-radius: 1rem;
+
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.3);
+
+    transition: transform 0.4s ease;
+}
+
+.details img:hover {
+    transform: scale(1.02);
+}
+
+.details_card {
+    font-family: Aldrich;
+    text-align: center;
+    color: #A67828;
+}
+
+#other_models {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+
+#other_models a {
+    text-decoration: none;
+}
+
+.other_card {
+    background-color: rgb(35, 35, 35);
+    border-radius: 1rem;
+    padding: 1rem;
+
+    text-align: center;
+    font-family: Genos;
+    color: #A67828;
+
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.5);
+
+    transition: transform 0.4s ease;
+}
+
+
+
+.other_card img {
+    width: 40rem;
+}
+
+.other_card:hover {
+    transform: scale(0.97);
+}

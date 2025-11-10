@@ -1,0 +1,322 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 25, 25);
+}
+
+/* Header */
+
+.home {
+    padding-bottom: 20rem;
+}
+
+.home nav {
+    background-color: rgb(37, 36, 36);
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    top: 0;
+
+    text-align: center;
+    color: #E5E4E2;
+    font-family: Genos;
+    z-index: 10;
+
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.home div {
+    height: 32rem;
+    background: linear-gradient(rgb(50, 50, 50), rgb(0, 0, 0));
+    position: relative;
+}
+
+#bg_text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -9.2rem;
+
+    font-size: 18rem;
+    color: rgb(70, 70, 70);
+    font-family: Aldrich;
+}
+
+#title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 34rem;
+
+    font-family: Genos;
+    font-size: 4.7rem;
+    color: #E5E4E2;
+}
+
+header div img {
+    width: 70rem;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 17rem;
+
+    display: block;
+    margin: auto;
+}
+
+/* Introdution */
+
+#introduction {
+    padding-bottom: 6rem;
+}
+
+.heading {
+    font-family: Genos;
+    text-align: center;
+    color: #E5E4E2;
+    font-size: 3rem;
+}
+
+#introduction article p {
+    font-family: Genos;
+    font-size: 2rem;
+    color: #E5E4E2;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+/* Technical specifications */
+
+#technical_spec {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 6rem;
+}
+
+.technical_spec_card {
+    padding: 1rem;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 1rem;
+
+    background-color: black;
+    color: #E5E4E2;
+
+    font-family: Aldrich;
+    text-align: center;
+
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.5);
+}
+
+#technical_spec img {
+    width: 50rem;
+}
+
+/* Motor and performance */
+
+#motor_performance {
+    padding-bottom: 8rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#motor_performance button {
+    width: 5rem;
+    border: none;
+    border-radius: 1rem;
+
+    font-family: Aldrich;
+    height: 3rem;
+    margin: auto;
+    transition: opacity 0.4s ease;
+    transition: background-color 0.4s ease;
+}
+
+#previous_button {
+    opacity: 0;
+}
+
+#motor_performance button:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+
+#motor_spec_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    width: 60%;
+    gap: 3rem;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+
+    font-family: Aldrich;
+    color: #E5E4E2;
+    justify-items: center;
+    text-align: center;
+}
+
+#motor_spec_card h2,
+p {
+    transition: opacity 0.4s ease;
+}
+
+/* Legend */
+
+#legend {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 6rem;
+    padding-top: 2rem;
+    justify-items: center;
+    gap: 4rem;
+}
+
+#legend img {
+    width: 40rem;
+    border-radius: 1rem;
+
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease;
+}
+
+#legend img:hover {
+    transform: scale(1.02);
+}
+
+#legend p {
+    font-family: Aldrich;
+    color: #E5E4E2;
+    width: 80%;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+
+/* Display */
+
+#display_title {
+    font-family: Genos;
+    font-size: 7rem;
+    color: #E5E4E2;
+    text-align: center;
+}
+
+.gallery {
+    width: 100%;
+    transition: transform 0.4s ease;
+    padding-bottom: 8rem;
+}
+
+.gallery.shrink {
+    transform: scale(0.9);
+}
+
+/* Highlights */
+
+#highlights {
+    padding-bottom: 8rem;
+}
+
+.highlights_card {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 5rem;
+
+    background-color: black;
+    font-family: Aldrich;
+    color: #E5E4E2;
+    line-height: 2rem;
+    opacity: 0;
+
+    transition: opacity 0.4s ease;
+}
+
+.highlights_card img {
+    width: 30rem;
+}
+
+.highlights_card.show {
+    opacity: 1;
+}
+
+/* Heritage Design pack */
+
+#heritage_design_pack {
+    padding-bottom: 8rem;
+}
+
+#heritage_design_pack_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 6rem;
+
+    font-family: Aldrich;
+    color: #E5E4E2;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+#heritage_design_pack_cards div {
+    width: 30rem;
+}
+
+#heritage_design_pack_cards img {
+    width: 40rem;
+    border-radius: 1rem;
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.5);
+
+    transition: transform 0.4s ease;
+}
+
+#heritage_design_pack_cards img:hover {
+    transform: scale(1.02);
+}
+
+.right h2 {
+    text-align: right;
+}
+
+/* footer */
+footer {
+    padding-bottom: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div {
+    background: linear-gradient(rgb(60, 60, 60), rgb(0, 0, 0));
+    font-family: Genos;
+    color: #E5E4E2;
+    text-align: center;
+
+    border-radius: 1rem;
+    padding: 1rem;
+
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease;
+}
+
+footer div:hover {
+    transform: scale(0.97);
+}
+
+footer img {
+    width: 40rem;
+}
+
+footer a {
+    text-decoration: none;
+}
