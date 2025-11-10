@@ -38,8 +38,6 @@ The page serves as the central landing page of the website. It provides:
 ![Special_models](Screenshots/Main_hub_4.png)
 
 
-
------
 <br><br>
 
 ## Porsche 911 Targa 4 GTS (`targa.html`)
