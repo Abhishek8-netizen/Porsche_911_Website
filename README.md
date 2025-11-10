@@ -49,9 +49,17 @@ The page serves as the central landing page of the website. It provides:
 
 ![targa_features_2](Screenshots/911_Targa_4.png)
 
+<br><br>
+## Porsche 911 Spirit 70 (`spirit70.html`)
+![spirit70_home](Screenshots/Spirit_70_1.png)
+
+![spirit70_spec](Screenshots/Spirit_70_3.png)
+
+![spirit70_highlights](Screenshots/Spirit_70_2.png)
+
 # Credits
 - Porsche AG for model references  
-- Official Porsche website: [https://www.porsche.com](https://www.porsche.com)  
+- Official Porsche website: [https://www.porsche.com](https://www.porsche.com)
 
 
 
