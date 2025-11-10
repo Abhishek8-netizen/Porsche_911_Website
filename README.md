@@ -30,9 +30,9 @@ The page serves as the central landing page of the website. It provides:
 # Preview
 ## Main hub (`webpage.html`)
 ![Home_page](Screenshots/Main_hub_1.png)
-
+------
 ![Features](Screenshots/Main_hub_2.png)
-
+------
 ![Models](Screenshots/Main_hub_3.png)
 
 ![Special_models](Screenshots/Main_hub_4.png)
