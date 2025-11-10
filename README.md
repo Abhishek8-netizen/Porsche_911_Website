@@ -20,9 +20,16 @@ The page serves as the central landing page of the website. It provides:
 - High-quality hero images of all featured models  
 - A simple, desktop-focused layout for easy browsing  
 
+
 ## Features
 - Central hub page for easy navigation  
 - Separate pages for each special Porsche 911 model  
-- High-quality images and detailed descriptions  
+- High-quality images and detailed descriptions
+
+
+# Credits
+- Porsche AG for model references  
+- Official Porsche website: [https://www.porsche.com](https://www.porsche.com)  
+
 
 
