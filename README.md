@@ -39,10 +39,10 @@ The page serves as the central landing page of the website. It provides:
 
 
 ## Porsche 911 Targe 4 GTS (`targa.html`)
-![targa_home](Screenshots/911_targa_1.png)
-![targa_spec](Screenshots/911_targa_2.png)
-![targa_features_1](Screenshots/911_targa_3.png)
-![targa_features_2](Screenshots/911_targa_4.png)
+![targa_home](Screenshots/911_Targa_1.png)
+![targa_spec](Screenshots/911_Targa_2.png)
+![targa_features_1](Screenshots/911_Targa_3.png)
+![targa_features_2](Screenshots/911_Targa_4.png)
 
 # Credits
 - Porsche AG for model references  
