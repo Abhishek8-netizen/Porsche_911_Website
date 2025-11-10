@@ -27,6 +27,11 @@ The page serves as the central landing page of the website. It provides:
 - High-quality images and detailed descriptions
 
 
+# Preview
+## Main hub (`webpage.html`)
+![Home_page] (Screenshots/Main_hub_1.png)
+
+
 # Credits
 - Porsche AG for model references  
 - Official Porsche website: [https://www.porsche.com](https://www.porsche.com)  
