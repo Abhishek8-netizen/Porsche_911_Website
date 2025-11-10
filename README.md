@@ -1,6 +1,6 @@
 # Porsche 911 Showcase Website
 
-Welcome to the **Porsche 911 Showcase Website**! This project is a collection of dedicated web pages highlighting some of the most iconic and special Porsche 911 models.
+This project is a collection of dedicated web pages highlighting some of the most iconic and special Porsche 911 models.
 
 ## Featured Models
 
